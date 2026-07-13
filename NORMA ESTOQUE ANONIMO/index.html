@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NORMA GESTÃO DE ESTOQUE - Control</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background-color: #ffffff;
+            width: 480px;
+            max-width: 94%;
+            padding: 40px 30px 35px;
+            border-radius: 24px;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.10);
+            text-align: center;
+            border: 1px solid #e9edf4;
+        }
+        .logo {
+            max-width: 160px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a2634;
+            margin-bottom: 8px;
+        }
+        .subtitulo {
+            color: #6b7a8a;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+        .link-pdf {
+            display: inline-block;
+            background-color: #1a2a4a;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 40px;
+            font-weight: 500;
+            font-size: 16px;
+            transition: background 0.2s;
+            margin-top: 6px;
+        }
+        .link-pdf:hover {
+            background-color: #0f1d35;
+        }
+        .link-pdf::before {
+            content: "📄 ";
+        }
+        .footer {
+            margin-top: 28px;
+            font-size: 12px;
+            color: #a0b0c0;
+            border-top: 1px solid #eef2f7;
+            padding-top: 18px;
+        }
+        .voltar {
+            display: block;
+            margin-top: 16px;
+            color: #6b7a8a;
+            font-size: 13px;
+            text-decoration: none;
+        }
+        .voltar:hover {
+            color: #1a2a4a;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="../assets/img/logo-control.png" alt="Logo Control" class="logo" />
+        <h1>📘 NORMA GESTÃO DE ESTOQUE</h1>
+        <p class="subtitulo">Gestão de Estoque - ANONIMO</p>
+        <a class="link-pdf" href="https://mozilla.github.io/pdf.js/web/viewer.html?file=https%3A%2F%2Fraw.githubusercontent.com%2FAlefe-gomes-182%2FTREINAMENTOS_PEP%2Fa6075579c64986039144ed37d1b35b436022fc35%2Fpdf%2FNORMA%2520GEST%25C3%2583O%2520DE%2520ESTOQUE%2520ANONIMO.pdf" target="_blank" rel="noopener noreferrer">
+            Abrir PDF
+        </a>
+        <a href="../" class="voltar">← Voltar</a>
+        <div class="footer">Control · Treinamentos e Normas</div>
+    </div>
+</body>
+</html>
